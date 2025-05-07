@@ -1,0 +1,20 @@
+shell-integration-features = no-cursor,sudo,no-title
+
+font-family = CaskaydiaCove Nerd Font Mono
+font-size = 12
+font-thicken = true
+theme = IR_Black
+
+window-padding-balance = true
+window-padding-x = 12
+macos-titlebar-style = hidden
+
+mouse-hide-while-typing = true
+
+cursor-style = bar
+cursor-style-blink = false
+
+keybind = cmd+l=text:\x0c
+keybind = cmd+backspace=text:\x15
+keybind = global:f16=toggle_quick_terminal
+keybind = global:shift+ctrl+opt+cmd+grave_accent=toggle_quick_terminal

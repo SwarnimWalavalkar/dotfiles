@@ -1,0 +1,44 @@
+[core]
+editor = cursor --wait
+pager = diff-so-fancy | less --tabs=4 -RF
+
+[user]
+name = Swarnim Walavalkar
+email = swarnim.walavalkar@gmail.com
+
+[push]
+autoSetupRemote = true
+
+[alias]
+co = checkout
+cob = checkout -b
+com = checkout main
+br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
+l = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+
+[filter "lfs"]
+clean = git-lfs clean -- %f
+smudge = git-lfs smudge -- %f
+process = git-lfs filter-process
+required = true
+
+[interactive]
+diffFilter = diff-so-fancy --patch
+
+[color]
+ui = true
+
+[color "diff-highlight"]
+oldNormal = red bold
+oldHighlight = red bold 52
+newNormal = green bold
+newHighlight = green bold 22
+
+[color "diff"]
+meta = 11
+frag = magenta bold
+func = 146 bold
+commit = yellow bold
+old = red bold
+new = green bold
+whitespace = red reverse

@@ -1,0 +1,35 @@
+# Replace the "❯" symbol in the prompt with "➜"
+[character]                            # The name of the module we are configuring is "character"
+success_symbol = "[➜](bold green)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
+error_symbol = "[➜](bold red)"     # The "error_symbol" segment is being set to "➜" with the color "red"
+disabled = true
+
+# Make prompt a single line instead of two lines
+[line_break]
+# disabled = true
+
+[directory]
+truncation_length = 5
+format = "[$path]($style)[$lock_symbol]($lock_style) "
+
+[git_branch]
+style = "bold green"
+
+[git_status]
+stashed = ''
+
+[python]
+format = "[$symbol$version]($style) "
+style = "bold green"
+
+[conda]
+disabled = true
+
+[aws]
+disabled = true
+
+[gcloud]
+disabled = true
+
+[docker_context]
+disabled = true
