@@ -27,3 +27,4 @@ _darcs
 
 
 Brewfile
+*.rayconfig
