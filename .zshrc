@@ -29,6 +29,7 @@ zinit light starship/starship
 zinit light zdharma-continuum/fast-syntax-highlighting
 zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
+zinit load azu/ni.zsh
 
 PROMPT="${PROMPT}"$'\n\n'
 
@@ -132,7 +133,7 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
-# Added by Windsurf
-export PATH="/Users/swarnim/.codeium/windsurf/bin:$PATH"
+# opencode
+export PATH=/Users/swarnim/.opencode/bin:$PATH
 
 . "$HOME/.local/bin/env"
