@@ -1,6 +1,6 @@
 shell-integration-features = no-cursor,sudo,no-title
 
-font-family = Geist Mono
+font-family = JetBrains Mono
 font-size = 12
 font-thicken = true
 theme = IR_Black

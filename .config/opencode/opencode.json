@@ -4,9 +4,23 @@
   "model": "anthropic/claude-sonnet-4-20250514",
   "autoupdate": true,
   "mcp": {
-    "localmcp": {
+    "exa": {
       "type": "local",
       "command": ["npx", "-y", "exa-mcp-server"],
+      "enabled": true
+    },
+    "sequential-thinking": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ],
+      "enabled": true
+    },
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp",
       "enabled": true
     }
   }
