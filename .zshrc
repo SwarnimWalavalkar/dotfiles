@@ -52,8 +52,8 @@ alias tunnel_stop="sudo launchctl stop com.cloudflare.cloudflared"
 alias code="cursor"
 alias c="cursor"
 alias vcode="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
-alias ws="windsurf"
-alias ai="aichat"
+
+alias claude="/Users/swarnim/.claude/local/claude"
 
 # PATH -------------------------------------------------------------------------------------------------------
 
