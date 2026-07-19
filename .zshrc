@@ -51,9 +51,15 @@ alias tunnel_stop="sudo launchctl stop com.cloudflare.cloudflared"
 
 alias code="cursor"
 alias c="cursor"
+alias z="zed"
 alias vcode="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
 
-alias claude="/Users/swarnim/.claude/local/claude"
+alias cc='claude --dangerously-skip-permissions'
+
+export EDITOR="cursor"
+
+export HERMES_TUI=1
+
 
 # PATH -------------------------------------------------------------------------------------------------------
 
@@ -137,3 +143,10 @@ load-nvmrc
 export PATH=/Users/swarnim/.opencode/bin:$PATH
 
 . "$HOME/.local/bin/env"
+
+[[ "$TERM_PROGRAM" == "kiro" ]] && . "$(kiro --locate-shell-integration-path zsh)"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/swarnim/.lmstudio/bin"
+# End of LM Studio CLI section
+

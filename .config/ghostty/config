@@ -3,7 +3,7 @@ shell-integration-features = no-cursor,sudo,no-title
 font-family = JetBrains Mono
 font-size = 12
 font-thicken = true
-theme = IR_Black
+theme="IR Black"
 
 window-padding-balance = true
 window-padding-x = 12
