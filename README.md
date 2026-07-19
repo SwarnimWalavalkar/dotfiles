@@ -24,6 +24,7 @@ stow .
 - **Starship** prompt with custom configuration
 - **Tmux** with session management via `sesh`
 - **Ghostty** terminal emulator
+- **Hermes Pi launcher** via `hermes-pi` (`Ctrl-a`, then `d` to detach)
 
 ### Development Tools
 
